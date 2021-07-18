@@ -142,6 +142,14 @@ window.addEventListener('load', function () {
         poner1 = false;
     })
 
+    var nuevaWeb;
+    nuevaWeb = document.getElementById('ima1');
+
+    nuevaWeb.addEventListener('click', function() {
+        //location.href = "https://www.google.es";
+        location.href = "index2022.html";
+    })
+
     if (window.screen.width < 935) {
 
             //para tamaño tablet y movil 

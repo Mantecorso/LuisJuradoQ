@@ -1,0 +1,144 @@
+/**/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+/*
+
+:root {
+    --color1: #1e1e1e;
+    --color2: #cad2c5;
+    --color3: #db3069;
+    --color4: #52489c;
+    --color5: #4062bb;
+}
+
+*/
+
+.a1 {
+    background-color: lightseagreen;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.no-mobile {
+    width: 100%;
+    height: 100vh;
+    padding: 30px;
+    background-color: lightsteelblue;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+
+.inside {
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    top: 5%;
+    left: 100%;
+    padding: 20px;
+    background-color: lightsalmon;
+    box-shadow: 10px 10px 10px white;
+    transition: 1.1s ease-in-out;
+}
+
+#cie {
+    position: absolute;
+    top: 50%;
+    right: 2%;
+    cursor: pointer;
+    transition: .4s ease-in-out;
+}
+
+#cie:hover {
+    font-weight: bold;
+    color: white;
+}
+
+.todos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.juntos {
+    width: 30%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    box-shadow: 10px 10px 2px white;
+}
+
+.primero {
+    height: 25vh;
+}
+
+.segundo {
+    height: 45vh;
+}
+
+.tercero {
+    height: 35vh;
+}
+
+.cuarto {
+    height: 40vh;
+}
+
+.quinto {
+    height: 30vh;
+}
+
+.sexto {
+    height: 35vh;
+}
+
+.completos {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: -100%;
+    left: 0;
+    transition: .7s ease-in-out;
+}
+
+#dos1 {
+    background-color: cornflowerblue;
+}
+
+#dos2 {
+    background-color: cornflowerblue;
+}
+
+#dos3 {
+    background-color: cornflowerblue;
+}
+
+#dos4 {
+    background-color: cornflowerblue;
+}
+
+#dos5 {
+    background-color: cornflowerblue;
+}
+
+#dos6 {
+    background-color: cornflowerblue;
+}
+
+.cerrarboton {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
