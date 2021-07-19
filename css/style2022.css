@@ -102,11 +102,56 @@
     height: 35vh;
 }
 
+@media screen and(max-width: 574px) {
+    .primero {
+        height: 15vh;
+    }
+    
+    .segundo {
+        height: 35vh;
+    }
+    
+    .tercero {
+        height: 25vh;
+    }
+    
+    .cuarto {
+        height: 30vh;
+    }
+    
+    .quinto {
+        height: 20vh;
+    }
+    
+    .sexto {
+        height: 25vh;
+    }
+
+    .juntos {
+        width: 26%;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid white;
+        box-shadow: 10px 10px 2px white;
+    }
+}
+
 .completos {
     width: 100%;
     height: 100vh;
     position: absolute;
     top: -100%;
+    left: 0;
+    transition: .7s ease-in-out;
+}
+
+.completos2 {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 100%;
     left: 0;
     transition: .7s ease-in-out;
 }

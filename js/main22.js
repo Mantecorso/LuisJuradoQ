@@ -94,19 +94,19 @@ window.addEventListener('load', function() {
     sube4.addEventListener('click', function() {
         var grupo;
         grupo = document.getElementById('dos4');
-        grupo.style.top = "-100%";
+        grupo.style.top = "100%";
     })
 
     sube5.addEventListener('click', function() {
         var grupo;
         grupo = document.getElementById('dos5');
-        grupo.style.top = "-100%";
+        grupo.style.top = "100%";
     })
 
     sube6.addEventListener('click', function() {
         var grupo;
         grupo = document.getElementById('dos6');
-        grupo.style.top = "-100%";
+        grupo.style.top = "100%";
     })
 
 
