@@ -50,7 +50,7 @@
 
 #escribe1 {
     padding: 20px;
-    width: 90%;
+    width: 360px;
     background-color: rgba(247, 247, 247, 0.486);
     position: absolute;
     top: 60%;
@@ -59,7 +59,7 @@
 
 #escribe2 {
     padding: 20px;
-    width: 90%;
+    width: 460px;
     background-color: rgba(247, 247, 247, 0.486);
     position: absolute;
     top: 75%;

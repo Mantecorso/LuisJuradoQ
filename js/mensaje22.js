@@ -59,7 +59,7 @@ window.addEventListener('load', function() {
 
     var veloA, veloB, tempo1, tempo2;
     veloA = 300;
-    veloB = 200;
+    veloB = 228;
 
     window.clearInterval(tempo1);
     tempo1=window.setInterval("Ef1()",veloA);
