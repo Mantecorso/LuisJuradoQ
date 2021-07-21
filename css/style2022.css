@@ -40,7 +40,7 @@
     width: 100%;
     height: 100vh;
     padding: 30px;
-    background-color: lightsteelblue;
+    background-color: var(--color1);
     overflow: hidden;
     display: flex;
     justify-content: flex-end;
@@ -48,22 +48,37 @@
     position: relative;
 }
 
+#logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 50px;
+}
+
 #escribe1 {
     padding: 20px;
-    width: 360px;
+    width: 560px;
     background-color: rgba(247, 247, 247, 0.486);
     position: absolute;
     top: 60%;
     left: 5%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+    color: blanchedalmond;
+    text-shadow: 3px 3px 3px black;
 }
 
 #escribe2 {
     padding: 20px;
-    width: 460px;
+    width: 660px;
     background-color: rgba(247, 247, 247, 0.486);
     position: absolute;
     top: 75%;
     left: 5%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+    color: blanchedalmond;
+    text-shadow: 3px 3px 3px black;
 }
 
 .inside {
@@ -73,22 +88,58 @@
     top: 5%;
     left: 100%;
     padding: 20px;
-    background-color: lightsalmon;
-    box-shadow: 10px 10px 10px white;
+    background-color: var(--color1);
+    box-shadow: 10px 10px 10px var(--color2);
     transition: 1.1s ease-in-out;
+}
+
+.boton3 {
+    padding: 10px 15px;
+    border: 1px solid black;
+    text-decoration: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: var(--color2);
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.cortina {
+    width: 100%;
+    height: 100%;
+    background-color: var(--color1);
+    position: absolute;
+    top: 0;
+    left: 100%;
+    transition: .5s;
+    z-index: -1;
+}
+
+.boton3:hover .cortina {
+    left: 0;
+}
+
+.boton3:hover {
+    box-shadow: 5px 5px 1px var(--color2),
+                -5px -5px 1px var(--color2);
 }
 
 #cie {
     position: absolute;
     top: 50%;
     right: 2%;
+    font-size: 2rem;
     cursor: pointer;
     transition: .4s ease-in-out;
 }
 
 #cie:hover {
     font-weight: bold;
-    color: white;
+    color: var(--color5);
+    text-shadow: 1px 1px 1px var(--color2);
 }
 
 .todos {
@@ -104,32 +155,61 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid white;
-    box-shadow: 10px 10px 2px white;
+    border: 2px solid var(--color2);
+    box-shadow: 10px 10px 2px var(--color2);
+    transition: .3s ease-in-out;
+}
+
+.juntos:hover {
+    box-shadow: 10px 10px 2px var(--color3);
 }
 
 .primero {
     height: 25vh;
+    color: var(--color1);
+    font-size: 2rem;
+    text-shadow: 1px 1px 1px var(--color2);
+    background-color: var(--color3);
 }
 
 .segundo {
     height: 45vh;
+    color: var(--color1);
+    font-size: 2rem;
+    text-shadow: 1px 1px 1px var(--color2);
+    background-color: var(--color4);
 }
 
 .tercero {
     height: 35vh;
+    color: var(--color1);
+    font-size: 2rem;
+    text-shadow: 1px 1px 1px var(--color2);
+    background-color: var(--color5);
 }
 
 .cuarto {
     height: 40vh;
+    color: var(--color1);
+    font-size: 2rem;
+    text-shadow: 1px 1px 1px var(--color2);
+    background-color: var(--color4);
 }
 
 .quinto {
     height: 30vh;
+    color: var(--color1);
+    font-size: 2rem;
+    text-shadow: 1px 1px 1px var(--color2);
+    background-color: var(--color5);
 }
 
 .sexto {
     height: 35vh;
+    color: var(--color1);
+    font-size: 2rem;
+    text-shadow: 1px 1px 1px var(--color2);
+    background-color: var(--color3);
 }
 
 @media screen and(max-width: 574px) {
