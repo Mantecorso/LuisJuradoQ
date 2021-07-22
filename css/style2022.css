@@ -213,28 +213,42 @@
 }
 
 @media screen and(max-width: 574px) {
+
+    #escribe1 {
+        font-size: 1.5rem;
+    }
+
+    #escribe2 {
+        font-size: 1.5rem;
+    }
     .primero {
         height: 15vh;
+        font-size: 1.1rem;
     }
     
     .segundo {
-        height: 35vh;
+        height: 30vh;
+        font-size: 1.1rem;
     }
     
     .tercero {
-        height: 25vh;
+        height: 22vh;
+        font-size: 1.1rem;
     }
     
     .cuarto {
-        height: 30vh;
+        height: 24vh;
+        font-size: 1.1rem;
     }
     
     .quinto {
-        height: 20vh;
+        height: 18vh;
+        font-size: 1.1rem;
     }
     
     .sexto {
-        height: 25vh;
+        height: 21vh;
+        font-size: 1.1rem;
     }
 
     .juntos {
@@ -267,27 +281,27 @@
 }
 
 #dos1 {
-    background-color: cornflowerblue;
+    background-color: var(--color3);
 }
 
 #dos2 {
-    background-color: cornflowerblue;
+    background-color: var(--color4);
 }
 
 #dos3 {
-    background-color: cornflowerblue;
+    background-color: var(--color5);
 }
 
 #dos4 {
-    background-color: cornflowerblue;
+    background-color: var(--color4);
 }
 
 #dos5 {
-    background-color: cornflowerblue;
+    background-color: var(--color5);
 }
 
 #dos6 {
-    background-color: cornflowerblue;
+    background-color: var(--color3);
 }
 
 .cerrarboton {
