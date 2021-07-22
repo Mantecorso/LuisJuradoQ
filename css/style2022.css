@@ -142,12 +142,28 @@
     text-shadow: 1px 1px 1px var(--color2);
 }
 
-.todos {
+/* .todos {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
+ */
+
+.todos1 {
+    display: flex;
+    height: 40vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.todos2 {
+    display: flex;
+    height: 40vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
 
 .juntos {
     width: 30%;
@@ -214,13 +230,12 @@
 
 @media screen and (max-width: 574px) {
 
-    #logo {
+/*     #logo {
         background-color: green;
-    }
+    } */
 
     #escribe1 {
         font-size: 1.5rem;
-        color:green;
     }
 
     #escribe2 {
@@ -254,6 +269,34 @@
     .sexto {
         height: 21vh;
         font-size: 1.1rem;
+    }
+
+    .boton3 {
+        padding: 5px 10px;
+        border: 1px solid black;
+        text-decoration: none;
+        font-size: 0.7rem;
+        cursor: pointer;
+        color: var(--color2);
+        font-weight: bold;
+        position: relative;
+        display: inline-block;
+        overflow: hidden;
+        transition: .5s;
+    }
+
+    .todos1 {
+        display: flex;
+        height: 40vh;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .todos2 {
+        display: flex;
+        height: 40vh;
+        justify-content: space-around;
+        align-items: center;
     }
 
     .juntos {
