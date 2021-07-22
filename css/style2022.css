@@ -243,32 +243,32 @@
     }
     .primero {
         height: 15vh;
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
     
     .segundo {
         height: 30vh;
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
     
     .tercero {
         height: 22vh;
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
     
     .cuarto {
         height: 24vh;
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
     
     .quinto {
         height: 18vh;
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
     
     .sexto {
         height: 21vh;
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
     .boton3 {
@@ -283,6 +283,18 @@
         display: inline-block;
         overflow: hidden;
         transition: .5s;
+    }
+
+    .inside {
+        width: 90%;
+        height: 80%;
+        position: absolute;
+        top: 10%;
+        left: 100%;
+        padding: 20px;
+        background-color: var(--color1);
+        box-shadow: 10px 10px 10px var(--color2);
+        transition: 1.1s ease-in-out;
     }
 
     .todos1 {
@@ -305,6 +317,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        text-align: center;
         border: 2px solid var(--color2);
         box-shadow: 10px 10px 2px var(--color2);
     }
