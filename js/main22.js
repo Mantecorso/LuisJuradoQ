@@ -109,5 +109,39 @@ window.addEventListener('load', function() {
         grupo.style.top = "100%";
     })
 
+    //
+
+    var inst, inst1, link1, link2, gith, gith1;
+
+    inst = document.getElementById('inst');
+    link2 = document.getElementById('link2');
+    gith = document.getElementById('gith');
+    inst1 = document.getElementById('inst1');
+    link1 = document.getElementById('link1');
+    gith1 = document.getElementById('gith1');
+
+    inst.addEventListener('mouseover', function() {
+        inst1.style.left = "15%";
+    })
+
+    inst.addEventListener('mouseout', function() {
+        inst1.style.left = "100%";
+    })
+
+    link2.addEventListener('mouseover', function() {
+        link1.style.left = "15%";
+    })
+
+    link2.addEventListener('mouseout', function() {
+        link1.style.left = "100%";
+    })
+
+    gith.addEventListener('mouseover', function() {
+        gith1.style.left = "15%";
+    })
+
+    gith.addEventListener('mouseout', function() {
+        gith1.style.left = "100%";
+    })
 
 })

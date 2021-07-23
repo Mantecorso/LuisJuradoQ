@@ -229,7 +229,7 @@ window.addEventListener('load', function () {
                 men = "Hoy será el mejor jueves de toda la semana.";
                 break;
             case 3:
-                men = "Tranquilo, juyeves es casi viernes.";
+                men = "Tranquilo, jueves es casi viernes.";
                 break;
             case 4:
                 men = "Los jueves son las fiestas universitarias";
