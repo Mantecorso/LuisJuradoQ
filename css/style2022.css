@@ -321,6 +321,14 @@
         border: 2px solid var(--color2);
         box-shadow: 10px 10px 2px var(--color2);
     }
+
+    .recuadros {
+        width: 90%;
+        padding: 20px;
+        background-color: var(--color1);
+        box-shadow: 10px 10px 5px var(--color3);
+        transition: .5s ease-in-out;
+    }
 }
 
 .completos {
@@ -390,6 +398,9 @@
 .redeslogos {
     width: 30%;
     height: 83vh;
+    position: relative;
+    overflow: hidden;
+    transition: 4.9s ease-in-out;
 }
 
 .redeslogos ul {
@@ -445,6 +456,24 @@
     text-align: justify;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+#inst {
+    position: absolute;
+    left: 50%;
+    top: -100%;
+}
+
+#link2 {
+    position: absolute;
+    left: 50%;
+    top: -100%;
+}
+
+#gith {
+    position: absolute;
+    left: 50%;
+    top: -100%;
 }
 
 #link1 {

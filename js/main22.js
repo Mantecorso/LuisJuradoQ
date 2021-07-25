@@ -1,7 +1,10 @@
 //const bootstrap = require('bootstrap');
+alert('Tu pantalla mide'+this.screen.width);
 
 window.addEventListener('load', function() {
     
+    // botón empezar página
+
     var empi;
     empi = document.getElementById('empi');
 
@@ -12,6 +15,8 @@ window.addEventListener('load', function() {
         grupo.style.left = "5%";
     })
 
+    // botón ocultar de enlaces principal
+
     var cie;
     cie = document.getElementById('cie');
 
@@ -20,6 +25,8 @@ window.addEventListener('load', function() {
         grupo = document.getElementById('grupo');
         grupo.style.left = "100%";
     })
+
+    // botones mostrar cada página informativa
     
     var unoa, unob, unoc, unoe, unof, unog;
     unoa = document.getElementById('uno1');
@@ -48,9 +55,15 @@ window.addEventListener('load', function() {
     })
 
     unoe.addEventListener('click', function() {
-        var grupo;
+        var grupo, inst, link2, gith;
         grupo = document.getElementById('dos4');
         grupo.style.top = "0";
+        inst = document.getElementById('inst');
+        link2 = document.getElementById('link2');
+        gith = document.getElementById('gith');
+        inst.style.top = "25%";
+        link2.style.top = "50%";
+        gith.style.top = "75%";
     })
 
     unof.addEventListener('click', function() {
@@ -64,6 +77,8 @@ window.addEventListener('load', function() {
         grupo = document.getElementById('dos6');
         grupo.style.top = "0";
     })
+
+    // botón cerrar páginas informativas
 
     var sube1, sube2, sube3, sube4, sube5, sube6;
     sube1 = document.getElementById('sube1');
@@ -92,9 +107,15 @@ window.addEventListener('load', function() {
     })
 
     sube4.addEventListener('click', function() {
-        var grupo;
+        var grupo, inst, link2, gith;
         grupo = document.getElementById('dos4');
         grupo.style.top = "100%";
+        inst = document.getElementById('inst');
+        link2 = document.getElementById('link2');
+        gith = document.getElementById('gith');
+        inst.style.top = "-100%";
+        link2.style.top = "-100%";
+        gith.style.top = "-100%";
     })
 
     sube5.addEventListener('click', function() {
@@ -109,7 +130,9 @@ window.addEventListener('load', function() {
         grupo.style.top = "100%";
     })
 
-    //
+    // movimientos redes sociales
+
+    // movimientos recuadros redes sociales
 
     var inst, inst1, link1, link2, gith, gith1;
 
@@ -143,5 +166,37 @@ window.addEventListener('load', function() {
     gith.addEventListener('mouseout', function() {
         gith1.style.left = "100%";
     })
+
+    
+    // colocar logos redes sociales
+
+    // var dos4;
+    // dos4 = document.getElementById('dos4');
+
+    // dos4.addEventListener('animationend', function () {
+
+    //     inst = document.getElementById('inst');
+    //     link2 = document.getElementById('link2');
+    //     gith = document.getElementById('gith');
+
+    //     if (scrollY >= 0) {
+
+    //         gith.style.top = "25%";
+    //         inst.style.top = "50%";
+    //         link2.style.top = "75%";
+
+    //     } else {
+
+    //         gith.style.top = "-100%";
+    //         inst.style.top = "-100%";
+    //         link2.style.top = "-100%";
+
+    //     }
+
+    // })
+
+    //
+
+
 
 })
