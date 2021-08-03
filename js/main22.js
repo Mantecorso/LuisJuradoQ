@@ -70,6 +70,24 @@ window.addEventListener('load', function() {
         var grupo;
         grupo = document.getElementById('dos5');
         grupo.style.top = "0";
+        var amigos1, amigos2, amigos3;
+        amigos1 = document.getElementById('amigos1');
+        amigos2 = document.getElementById('amigos2');
+        amigos3 = document.getElementById('amigos3');
+        amigos1.style.left = "30px";
+        amigos2.style.left = "30px";
+        amigos3.style.left = "30px";
+        amigos1.style.top = "25%";
+        amigos2.style.top = "50%";
+        amigos3.style.top = "75%";
+        var ac1, ac2, ac3;
+        ac1 = document.getElementById('ac1');
+        ac2 = document.getElementById('ac2');
+        ac3 = document.getElementById('ac3');
+        ac1.style.top = "40%";
+        ac2.style.left = "350px";
+        ac3.style.top = "50px";
+
     })
 
     unog.addEventListener('click', function() {
@@ -122,6 +140,20 @@ window.addEventListener('load', function() {
         var grupo;
         grupo = document.getElementById('dos5');
         grupo.style.top = "100%";
+        var amigos1, amigos2, amigos3;
+        amigos1 = document.getElementById('amigos1');
+        amigos2 = document.getElementById('amigos2');
+        amigos3 = document.getElementById('amigos3');
+        amigos1.style.left = "-100%";
+        amigos2.style.left = "-100%";
+        amigos3.style.left = "-100%";
+        var ac1, ac2, ac3;
+        ac1 = document.getElementById('ac1');
+        ac2 = document.getElementById('ac2');
+        ac3 = document.getElementById('ac3');
+        ac1.style.top = "-100%";
+        ac2.style.left = "100%";
+        ac3.style.top = "100%";
     })
 
     sube6.addEventListener('click', function() {
@@ -165,6 +197,43 @@ window.addEventListener('load', function() {
 
     gith.addEventListener('mouseout', function() {
         gith1.style.left = "100%";
+    })
+
+    // botones webs amigas
+
+    var amigo1, amigo2, amigo3;
+    amigo1 = document.getElementById('amigos1');
+    amigo2 = document.getElementById('amigos2');
+    amigo3 = document.getElementById('amigos3');
+
+    amigo1.addEventListener('click', function() {
+        console.log("hola");
+        var grupo;
+        var grupo2, grupo3, grupo4;
+        grupo = document.getElementById('cort1');
+        grupo2 = document.getElementById('ac1');
+        grupo3 = document.getElementById('ac2');
+        grupo4 = document.getElementById('ac3');
+        grupo.style.left = "100%";
+        grupo2.style.zIndex = "5";
+        grupo3.style.zIndex = "3";
+        grupo4.style.zIndex = "4";
+    })
+
+    amigo2.addEventListener('click', function() {
+        
+        var grupo, grupo0;
+        var grupo2, grupo3, grupo4;
+        grupo0 = document.getElementById('cort1');
+        grupo = document.getElementById('cort2');
+        grupo2 = document.getElementById('ac1');
+        grupo3 = document.getElementById('ac2');
+        grupo4 = document.getElementById('ac3');
+        grupo.style.left = "100%";
+        grupo0.style.left = "0";
+        grupo2.style.zIndex = "2";
+        grupo3.style.zIndex = "5";
+        grupo4.style.zIndex = "4";
     })
 
     
