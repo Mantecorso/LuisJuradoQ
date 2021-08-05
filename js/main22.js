@@ -85,8 +85,10 @@ window.addEventListener('load', function() {
         ac2 = document.getElementById('ac2');
         ac3 = document.getElementById('ac3');
         ac1.style.top = "40%";
-        ac2.style.left = "350px";
+        ac2.style.top = "79px";
         ac3.style.top = "50px";
+
+
 
     })
 
@@ -208,13 +210,17 @@ window.addEventListener('load', function() {
 
     amigo1.addEventListener('click', function() {
         console.log("hola");
-        var grupo;
+        var grupo, grupo0, grupo1;
         var grupo2, grupo3, grupo4;
         grupo = document.getElementById('cort1');
+        grupo0 = document.getElementById('cort2');
+        grupo1 = document.getElementById('cort3');
         grupo2 = document.getElementById('ac1');
         grupo3 = document.getElementById('ac2');
         grupo4 = document.getElementById('ac3');
         grupo.style.left = "100%";
+        grupo1.style.left = "0";
+        grupo0.style.left = "0";
         grupo2.style.zIndex = "5";
         grupo3.style.zIndex = "3";
         grupo4.style.zIndex = "4";
@@ -222,18 +228,39 @@ window.addEventListener('load', function() {
 
     amigo2.addEventListener('click', function() {
         
-        var grupo, grupo0;
+        var grupo, grupo0, grupo1;
         var grupo2, grupo3, grupo4;
         grupo0 = document.getElementById('cort1');
         grupo = document.getElementById('cort2');
+        grupo1 = document.getElementById('cort3');
+        grupo2 = document.getElementById('ac1');
+        grupo3 = document.getElementById('ac2');
+        grupo4 = document.getElementById('ac3');
+        grupo1.style.left = "0";
+        grupo0.style.left = "0";
+        grupo.style.left = "100%";
+        grupo2.style.zIndex = "2";
+        grupo3.style.zIndex = "5";
+        grupo4.style.zIndex = "4";
+    })
+
+    amigo3.addEventListener('click', function() {
+        
+        var grupo, grupo0, grupo1;
+        var grupo2, grupo3, grupo4;
+        
+        grupo0 = document.getElementById('cort1');
+        grupo = document.getElementById('cort2');
+        grupo1 = document.getElementById('cort3');
         grupo2 = document.getElementById('ac1');
         grupo3 = document.getElementById('ac2');
         grupo4 = document.getElementById('ac3');
         grupo.style.left = "100%";
+        grupo1.style.left = "0";
         grupo0.style.left = "0";
         grupo2.style.zIndex = "2";
-        grupo3.style.zIndex = "5";
-        grupo4.style.zIndex = "4";
+        grupo3.style.zIndex = "3";
+        grupo4.style.zIndex = "5";
     })
 
     

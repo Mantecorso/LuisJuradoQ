@@ -613,6 +613,39 @@
     padding: 20px;
 }
 
+@media screen and (max-width: 574px) {
+
+.bcw1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ac1 {
+    left: 110px;
+    width: 200px;
+    min-height: 50vh;
+    padding: 20px;
+}
+
+#ac2 {
+    left: 115px;
+    width: 200px;
+    min-height: 50vh;
+    padding: 20px;
+}
+
+#ac3 {
+    left: 105px;
+    width: 200px;
+    min-height: 50vh;
+    padding: 20px;
+}
+
+}
+
+
+
 /*PIE informativo creador web*/
 
 .pie {
@@ -623,4 +656,11 @@
     text-decoration: none;
     color: var(--color3);
     text-shadow: 1px 1px 1px var(--color1);
+}
+
+@media screen and (max-width: 574px) {
+
+
+
+
 }
