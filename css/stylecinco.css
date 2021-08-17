@@ -1,0 +1,151 @@
+/*
+css enlaces amigos
+*/
+
+#dos5 h2 {
+    padding-top: 20px;
+    text-align: center;
+    text-shadow: 1px 1px 1px var(--color1);
+}
+
+.datos5 {
+    width: 100%;
+    height: 80vh;
+    padding: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.datos5 ul {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.datos5 ul li {
+    position: absolute;
+    left: -100%;
+    transition: 1.5s ease;
+}
+
+.datos5 ul li p {
+    width: 70px;
+    height: 45px;
+}
+.bcw1 {
+    background-color: var(--color1);
+}
+
+.amigocuadro1 {
+
+    width: 60%;
+    height: 30vh;
+    background-color: var(--color3);
+    border: 3px solid var(--color1);
+    box-shadow: 10px 10px 5px var(--color1);
+    z-index: 2;
+    position: absolute;
+    top: -100%;
+    left: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .8s ease;
+    overflow: hidden;
+}
+
+
+.dobleamigo1 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.amigocuadro1 .dobleamigo1 p {
+    text-indent: 20px;
+    text-align: justify;
+    padding: 20px;
+}
+
+.amigocuadro2 {
+    width: 50%;
+    height: 40vh;
+    background-color: var(--color4);
+    border: 3px solid var(--color1);
+    box-shadow: 10px 10px 5px var(--color1);
+    z-index: 3;
+    position: absolute;
+    top: 40%;
+    left: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1.2s ease;
+    overflow: hidden;
+}
+
+.amigocuadro2 p {
+    text-indent: 20px;
+    text-align: justify;
+    padding: 20px;
+}
+
+.amigocuadro3 {
+    width: 40%;
+    height: 50vh;
+    background-color: var(--color2);
+    color: var(--color1);
+    border: 3px solid var(--color1);
+    box-shadow: 10px 10px 5px var(--color1);
+    z-index: 4;
+    position: absolute;
+    top: 100%;
+    left: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1.5s ease;
+    overflow: hidden;
+}
+
+.amigocuadro3 p {
+    text-indent: 20px;
+    text-align: justify;
+    padding: 20px;
+}
+
+@media screen and (max-width: 574px) {
+
+.bcw1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ac1 {
+    left: 110px;
+    width: 200px;
+    min-height: 50vh;
+    padding: 20px;
+}
+
+#ac2 {
+    left: 115px;
+    width: 200px;
+    min-height: 50vh;
+    padding: 20px;
+}
+
+#ac3 {
+    left: 105px;
+    width: 200px;
+    min-height: 50vh;
+    padding: 20px;
+}
+
+}
