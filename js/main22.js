@@ -37,9 +37,16 @@ window.addEventListener('load', function() {
     unog = document.getElementById('uno6');
 
     unoa.addEventListener('click', function() {
-        var grupo;
+        var grupo; 
         grupo = document.getElementById('dos1');
         grupo.style.top = "0";
+        var fotoizq, fotoder, fotoaba;
+        fotoizq = document.getElementById('foto1');
+        fotoder = document.getElementById('foto2');
+        fotoaba = document.getElementById('foto3');
+        fotoizq.style.left = "";
+        fotoder.style.left = "";
+        fotoaba.style.left = "";
     })
 
     unob.addEventListener('click', function() {
