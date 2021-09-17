@@ -397,6 +397,14 @@
 
 /* Quien soy  */
 
+.fondo_soy {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(224, 224, 224, 0.8),
+    rgba(56, 57, 99, 0.6) 10px),
+url(../images/book-bindings-3176776_1280.jpg) 0 0/cover;
+}
+
 .globaldoble {
     display: flex;
     flex-wrap: wrap;
@@ -467,13 +475,61 @@
     display: none;
 }
 
+/* TRABAJOS */
+
+.fondo_trabajo {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(233, 231, 110, 0.8),
+    rgba(233, 221, 54, 0.6) 10px),
+url(../images/handyman-3094035_1280.jpg) 0 0/cover;
+}
+
+
+
+/* CONTACTO */
+
+.fondo_contacto {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(224, 224, 224, 0.8),
+    rgba(54, 233, 218, 0.6) 10px),
+url(../images/letter-box-2251842_1280.jpg) 0 0/cover;
+}
+
+
 
 /* REDES */
+
+.fondo_redes {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(224, 224, 224, 0.8),
+    rgba(227, 54, 233, 0.6) 10px),
+url(../images/smartphone-2781459_1280.png) 0 0/cover;
+}
+
 
 /* Enlaces amigos */
 
 
+.fondo_amigos {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(224, 224, 224, 0.8),
+    rgba(255, 255, 255, 0.6) 10px),
+url(../images/people-2569234_1280.jpg) 0 0/cover;
+}
 
+/* BLOG */
+
+.fondo_blog {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(245, 209, 48, 0.8),
+    rgba(255, 255, 255, 0.6) 10px),
+url(../images/blog-970722_1280.jpg) 0 0/cover;
+}
 
 /*PIE informativo creador web*/
 
