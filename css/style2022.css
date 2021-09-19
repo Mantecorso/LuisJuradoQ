@@ -660,6 +660,10 @@ url(../images/blog-970722_1280.jpg) 0 0/cover;
         display: none;
     }
 
+    #nofunc {
+        opacity: 0;
+    }
+
 
 
 }
