@@ -59,6 +59,9 @@ window.addEventListener('load', function() {
         var grupo;
         grupo = document.getElementById('dos3');
         grupo.style.top = "0";
+        var mueve;
+        mueve = document.getElementById('nofunc');
+        mueve.style.left = "20%";
     })
 
     unoe.addEventListener('click', function() {
@@ -131,6 +134,9 @@ window.addEventListener('load', function() {
         var grupo;
         grupo = document.getElementById('dos3');
         grupo.style.top = "-100%";
+        var mueve;
+        mueve = document.getElementById('nofunc');
+        mueve.style.left = "-100%";
     })
 
     sube4.addEventListener('click', function() {
