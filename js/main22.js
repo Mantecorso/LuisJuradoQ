@@ -53,6 +53,11 @@ window.addEventListener('load', function() {
         var grupo;
         grupo = document.getElementById('dos2');
         grupo.style.top = "0";
+        var uno, dos;
+        uno = document.getElementById('movil1');
+        dos = document.getElementById('movil2');
+        uno.style.top = "15%";
+        dos.style.top = "45%";
     })
 
     unoc.addEventListener('click', function() {
@@ -128,6 +133,11 @@ window.addEventListener('load', function() {
         var grupo;
         grupo = document.getElementById('dos2');
         grupo.style.top = "-100%";
+        var uno, dos;
+        uno = document.getElementById('movil1');
+        dos = document.getElementById('movil2');
+        uno.style.top = "-100%";
+        dos.style.top = "100%";
     })
 
     sube3.addEventListener('click', function() {

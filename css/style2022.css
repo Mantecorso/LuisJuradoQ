@@ -491,6 +491,28 @@ url(../images/book-bindings-3176776_1280.jpg) 0 0/cover;
 url(../images/handyman-3094035_1280.jpg) 0 0/cover;
 }
 
+.todomovil {
+    display: none;
+}
+
+#movil1 {
+    display: none;
+}
+
+#movil2 {
+    display: none;
+}
+
+#wordpresa {
+
+}
+
+#htmlA {
+
+}
+
+
+
 
 
 /* CONTACTO */
@@ -664,7 +686,60 @@ url(../images/blog-970722_1280.jpg) 0 0/cover;
         opacity: 0;
     }
 
+    #wordpresa {
+        display: none;
+    }
+    
+    #htmlA {
+        display: none;
+    }
 
+    .todomovil {
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    #movil1 {
+        display: block;
+    }
+    
+    #movil2 {
+        display: block;
+    }
+
+    .wordpmovil {
+        width: 80%;
+        padding: 20px;
+        margin: 0 auto;
+        background-color: rgba(218, 73, 73, 0.507);
+        color: white;
+        position: absolute;
+        top: -100%;
+        left: 10%;
+        transition: .9s ease-in-out;
+    }
+
+    .htmlmovil {
+        width: 80%;
+        padding: 20px;
+        margin: 0 auto;
+        background-color: rgba(218, 73, 73, 0.507);
+        color: white;
+        position: absolute;
+        top: 100%;
+        left: 10%;
+        transition: .9s ease-in-out;
+    }
+
+    .todomovil p {
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+    }
 
 }
 
