@@ -410,14 +410,16 @@ url(../images/book-bindings-3176776_1280.jpg) 0 0/cover;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
     height: 90vh;
     overflow: hidden;
 }
 
-/* .datos {
+.datos {
     width: 100%;
-    height: 100%;
-} */
+    height: 90vh;
+}
+
 
 .datos figure {
     padding: 20px;
@@ -503,12 +505,37 @@ url(../images/handyman-3094035_1280.jpg) 0 0/cover;
     display: none;
 }
 
-#wordpresa {
+.trabajospc {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+}
 
+.trabajospc p {
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+}
+
+#wordpresa {
+    position: absolute;
+    top: 20%;
+    left: 20%;
 }
 
 #htmlA {
+    position: absolute;
+    top: 20%;
+    left: 60%;
+}
 
+.wordpresb, .htmlB {
+    width: 300px;
+    background-color: rgba(218, 73, 73, 0.507);
+    padding: 20px;
+    box-shadow: 10px 10px 10px red;
 }
 
 
@@ -631,6 +658,23 @@ url(../images/people-2569234_1280.jpg) 0 0/cover;
 url(../images/blog-970722_1280.jpg) 0 0/cover;
 }
 
+.entradas {
+    width: 80%;
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.blog1 {
+    min-width: 600px;
+    height: 15vh;
+    background-color: rgba(255, 255, 0, 0.623);
+    box-shadow: 10px 10px 10px yellow;
+}
+
 /*PIE informativo creador web*/
 
 .pie {
@@ -694,11 +738,16 @@ url(../images/blog-970722_1280.jpg) 0 0/cover;
         display: none;
     }
 
+    .trabajospc {
+        display: none;
+    }
+
+
     .todomovil {
         display: block;
         position: relative;
         width: 100%;
-        height: 100vh;
+        height: 90vh;
         overflow: hidden;
     }
 
@@ -715,6 +764,7 @@ url(../images/blog-970722_1280.jpg) 0 0/cover;
         padding: 20px;
         margin: 0 auto;
         background-color: rgba(218, 73, 73, 0.507);
+        box-shadow: 10px 10px 10px red;
         color: white;
         position: absolute;
         top: -100%;
@@ -727,6 +777,7 @@ url(../images/blog-970722_1280.jpg) 0 0/cover;
         padding: 20px;
         margin: 0 auto;
         background-color: rgba(218, 73, 73, 0.507);
+        box-shadow: 10px 10px 10px red;
         color: white;
         position: absolute;
         top: 100%;
