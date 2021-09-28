@@ -505,6 +505,34 @@ url(../images/handyman-3094035_1280.jpg) 0 0/cover;
     display: none;
 }
 
+.mov77 {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: blue;
+    transition: .6s ease;
+    z-index: 99;
+}
+
+.redondo {
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.redondo:hover {
+    color: red;
+}
+
+#wpuno {
+    top: 0;
+    left: -100%;
+}
+
+#hpuno {
+    top: 0;
+    left: -100%;
+}
+
 .trabajospc {
     position: relative;
     width: 100%;
@@ -783,6 +811,25 @@ url(../images/blog-970722_1280.jpg) 0 0/cover;
         top: 100%;
         left: 10%;
         transition: .9s ease-in-out;
+    }
+
+    .mov77 {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        background-color: blue;
+        transition: .6s ease;
+        z-index: 99;
+    }
+
+    #wmuno {
+        top: 0;
+        left: -100%;
+    }
+
+    #hmuno {
+        top: 0;
+        left: -100%;
     }
 
     .todomovil p {

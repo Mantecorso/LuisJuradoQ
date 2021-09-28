@@ -56,8 +56,8 @@ window.addEventListener('load', function() {
         var uno, dos;
         uno = document.getElementById('movil1');
         dos = document.getElementById('movil2');
-        uno.style.top = "15%";
-        dos.style.top = "45%";
+        uno.style.top = "10%";
+        dos.style.top = "50%";
     })
 
     unoc.addEventListener('click', function() {
@@ -112,6 +112,78 @@ window.addEventListener('load', function() {
         grupo = document.getElementById('dos6');
         grupo.style.top = "0";
     })
+
+    // botones abrir trabajos wp y html en movil
+
+    var abrirwp, abrirhtml;
+    abrirwp = document.getElementById('abrirwp');
+    abrirhtml = document.getElementById('abrirhtml');
+    abrirwp.addEventListener('click', function() {
+        var mostrar;
+        mostrar = document.getElementById('wmuno');
+        mostrar.style.left = "0";
+        
+    })
+    abrirhtml.addEventListener('click', function() {
+        
+        var mostrar;
+        mostrar = document.getElementById('hmuno');
+        mostrar.style.left = "0";
+    })
+    
+    
+
+    // botónes cerrar trabajos wp y html en movil
+
+    var cerrarwp, cerrarhtml;
+    cerrarwp = document.getElementById('cerrarwm');
+    cerrarhtml = document.getElementById('cerrarhm');
+    cerrarwp.addEventListener('click', function() {
+        var quitar;
+        quitar = document.getElementById('wmuno');
+        quitar.style.left = "-100%";
+    })
+
+    cerrarhtml.addEventListener('click', function() {
+        var quitar;
+        quitar = document.getElementById('hmuno');
+        quitar.style.left = "-100%";
+    })
+
+       // botones abrir trabajos wp y html en pc
+
+       var abrirwp, abrirhtml;
+       abrirwp = document.getElementById('abrirwppc');
+       abrirhtml = document.getElementById('abrirhtmlpc');
+
+       abrirwp.addEventListener('click', function() {
+           var mostrar;
+           mostrar = document.getElementById('wpuno');
+           mostrar.style.left = "0";    
+       })
+
+       abrirhtml.addEventListener('click', function() {   
+           var mostrar;
+           mostrar = document.getElementById('hpuno');
+           mostrar.style.left = "0";
+       })      
+   
+       // botónes cerrar trabajos wp y html en pc
+   
+       var cerrarwp, cerrarhtml;
+       cerrarwp = document.getElementById('cerrarwp');
+       cerrarhtml = document.getElementById('cerrarhp');
+       cerrarwp.addEventListener('click', function() {
+           var quitar;
+           quitar = document.getElementById('wpuno');
+           quitar.style.left = "-100%";
+       })
+   
+       cerrarhtml.addEventListener('click', function() {
+           var quitar;
+           quitar = document.getElementById('hpuno');
+           quitar.style.left = "-100%";
+       }) 
 
     // botón cerrar páginas informativas
 
