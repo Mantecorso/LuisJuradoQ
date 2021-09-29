@@ -432,6 +432,32 @@ url(../images/book-bindings-3176776_1280.jpg) 0 0/cover;
 
 .informa {
     width: 50%;
+    position: relative;
+}
+
+.botonmas {
+    background-color: red;
+    border: 2px solid rgb(0, 0, 0);
+    color: white;
+    font-weight: bold;
+    width: 110px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px black;
+    cursor: pointer;
+    text-align: center;
+    transition: 2.2s ease-in-out;
+}
+
+.botonmas:hover {
+    box-shadow: 5px 5px 5px rgb(218, 49, 77);
+    background-color: rgb(70, 221, 70);
+    text-shadow: 1px 1px 1px black;
+}
+
+#botmas {
+    position: absolute;
+    top: -100%;
+    left: 50%;
 }
 
 .informa>h3 {
@@ -550,13 +576,13 @@ url(../images/handyman-3094035_1280.jpg) 0 0/cover;
 #wordpresa {
     position: absolute;
     top: 20%;
-    left: 20%;
+    left: -100%;
 }
 
 #htmlA {
     position: absolute;
     top: 20%;
-    left: 60%;
+    left: 100%;
 }
 
 .wordpresb, .htmlB {
@@ -564,6 +590,7 @@ url(../images/handyman-3094035_1280.jpg) 0 0/cover;
     background-color: rgba(218, 73, 73, 0.507);
     padding: 20px;
     box-shadow: 10px 10px 10px red;
+    transition: .6s ease-in-out;
 }
 
 .grupo {

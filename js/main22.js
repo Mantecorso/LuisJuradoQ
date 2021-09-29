@@ -48,6 +48,9 @@ window.addEventListener('load', function() {
         fotoizq.style.left = "";
         fotoder.style.left = "";
         fotoaba.style.left = "";
+        var masbot;
+        masbot = document.getElementById('botmas');
+        masbot.style.top = "-25px";
     })
 
     unob.addEventListener('click', function() {
@@ -59,6 +62,11 @@ window.addEventListener('load', function() {
         dos = document.getElementById('movil2');
         uno.style.top = "10%";
         dos.style.top = "50%";
+        var tres, cuatro;
+        tres = document.getElementById('wordpresa');
+        cuatro = document.getElementById('htmlA');
+        tres.style.left = "20%";
+        cuatro.style.left = "60%";
     })
 
     unoc.addEventListener('click', function() {
@@ -200,6 +208,9 @@ window.addEventListener('load', function() {
         var grupo;
         grupo = document.getElementById('dos1');
         grupo.style.top = "-100%";
+        var masbot;
+        masbot = document.getElementById('botmas');
+        masbot.style.top = "-100%";
     })
 
     sube2.addEventListener('click', function() {
@@ -211,6 +222,11 @@ window.addEventListener('load', function() {
         dos = document.getElementById('movil2');
         uno.style.top = "-100%";
         dos.style.top = "100%";
+        var tres, cuatro;
+        tres = document.getElementById('wordpresa');
+        cuatro = document.getElementById('htmlA');
+        tres.style.left = "-100%";
+        cuatro.style.left = "100%";
     })
 
     sube3.addEventListener('click', function() {
