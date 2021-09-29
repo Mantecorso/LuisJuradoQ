@@ -566,6 +566,19 @@ url(../images/handyman-3094035_1280.jpg) 0 0/cover;
     box-shadow: 10px 10px 10px red;
 }
 
+.grupo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.grupo2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 
 
 

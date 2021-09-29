@@ -1,5 +1,6 @@
 //const bootstrap = require('bootstrap');
 alert('Tu pantalla mide'+this.screen.width);
+alert('Tu pantalla mide'+this.screen.height);
 
 window.addEventListener('load', function() {
     
