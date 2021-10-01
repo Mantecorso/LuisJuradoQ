@@ -94,6 +94,60 @@
     z-index: -1000;
     overflow: hidden;
     }
+    
+ #video_background6u {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    }
+
+    #video_background5u {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        }
+    
+#video_background4u {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    }
+
+    #video_background3u {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        }
+
+        #video_background2u {
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+   }
+
+   #video_background1u {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    }   
 
 .inside {
     width: 90%;
@@ -181,6 +235,7 @@
 
 .juntos {
     width: 30%;
+    height: 30vh;
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -188,14 +243,26 @@
     border: 2px solid var(--color2);
     box-shadow: 10px 10px 2px var(--color2);
     transition: .3s ease-in-out;
+    position: relative;
 }
 
 .juntos:hover {
     box-shadow: 10px 10px 2px var(--color3);
 }
 
+.juntos span {
+    z-index: 2;
+}
+
+.giphy-embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
 .primero {
-    height: 25vh;
+    /* height: 25vh; */
     color: var(--color1);
     font-size: 2rem;
     text-shadow: 1px 1px 1px var(--color2);
@@ -203,7 +270,7 @@
 }
 
 .segundo {
-    height: 45vh;
+    /* height: 45vh; */
     color: var(--color1);
     font-size: 2rem;
     text-shadow: 1px 1px 1px var(--color2);
@@ -211,7 +278,7 @@
 }
 
 .tercero {
-    height: 35vh;
+    /* height: 35vh; */
     color: var(--color1);
     font-size: 2rem;
     text-shadow: 1px 1px 1px var(--color2);
@@ -219,7 +286,7 @@
 }
 
 .cuarto {
-    height: 40vh;
+    /* height: 40vh; */
     color: var(--color1);
     font-size: 2rem;
     text-shadow: 1px 1px 1px var(--color2);
@@ -227,7 +294,7 @@
 }
 
 .quinto {
-    height: 30vh;
+    /* height: 30vh; */
     color: var(--color1);
     font-size: 2rem;
     text-shadow: 1px 1px 1px var(--color2);
@@ -235,7 +302,7 @@
 }
 
 .sexto {
-    height: 35vh;
+    /* height: 35vh; */
     color: var(--color1);
     font-size: 2rem;
     text-shadow: 1px 1px 1px var(--color2);
@@ -283,6 +350,14 @@
     .sexto {
         height: 21vh;
         font-size: 1rem;
+    }
+
+    #video_background1u, #video_background2u, #video_bacground3u {
+        display: none;
+    }
+
+    #video_background4u, #video_background5u, #video_background6u {
+        display: none;
     }
 
     .boton3 {
@@ -334,6 +409,11 @@
         text-align: center;
         border: 2px solid var(--color2);
         box-shadow: 10px 10px 2px var(--color2);
+        transition: .5s ease-in-out;
+    }
+
+    .juntos:hover {
+        background-color: black;
     }
 
     .recuadros {
@@ -352,6 +432,7 @@
     top: -100%;
     left: 0;
     transition: .7s ease-in-out;
+    z-index: 3;
 }
 
 .completos2 {
@@ -361,6 +442,7 @@
     top: 100%;
     left: 0;
     transition: .7s ease-in-out;
+    z-index: 3;
 }
 
 #dos1 {
@@ -434,6 +516,42 @@ url(../images/book-bindings-3176776_1280.jpg) 0 0/cover;
     width: 50%;
     position: relative;
 }
+
+.panelmas {
+    z-index: 99;
+    box-shadow: 10px 10px 10px wheat;
+    width: 600px;
+    height: 600px;
+    padding: 10px;
+    background-color: lightblue;
+    position: absolute;
+    top: 0;
+    left: 250%;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-size: 15px;
+    transition: .9s ease-in-out;
+}
+
+
+#video_background2 {
+
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    min-width: 50%;
+    min-height: 50%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    overflow: hidden;
+    }
+
+    #cerrarpanelmas {
+        position: relative;
+        top: -30px;
+        right: -430px;
+    }
 
 .botonmas {
     background-color: red;
@@ -734,6 +852,7 @@ url(../images/blog-970722_1280.jpg) 0 0/cover;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    position: relative;
 }
 
 .blog1 {
@@ -753,6 +872,15 @@ url(../images/blog-970722_1280.jpg) 0 0/cover;
     text-decoration: none;
     color: var(--color3);
     text-shadow: 1px 1px 1px var(--color1);
+}
+
+@media screen and (max-width: 724px) {
+    .blog1 {
+        min-width: 300px;
+        height: 15vh;
+        background-color: rgba(255, 255, 0, 0.623);
+        box-shadow: 10px 10px 10px yellow;
+    }
 }
 
 @media screen and (max-width: 574px) {

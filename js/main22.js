@@ -122,6 +122,28 @@ window.addEventListener('load', function() {
         grupo.style.top = "0";
     })
 
+    // boton mas información personal
+
+    var botmas;
+    botmas = document.getElementById('botmas');
+    botmas.addEventListener('click', function() {
+        var panmas;
+        panmas = document.getElementById('panmas');
+        panmas.style.left = "200px";
+    })
+
+    // boton cerrar mas información personal
+
+    var cerrarpanelmas;
+    cerrarpanelmas = document.getElementById('cerrarpanelmas');
+    cerrarpanelmas.addEventListener('click', function() {
+        var grupo;
+        grupo = document.getElementById('panmas');
+        grupo.style.left = "250%";
+    })
+
+
+
     // botones abrir trabajos wp y html en movil
 
     var abrirwp, abrirhtml;
