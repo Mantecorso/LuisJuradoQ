@@ -120,6 +120,16 @@ window.addEventListener('load', function() {
         var grupo;
         grupo = document.getElementById('dos6');
         grupo.style.top = "0";
+        var auno, buno, cuno, duno;
+        auno = document.getElementById('cuatro1');
+        buno = document.getElementById('cuatro2');
+        cuno = document.getElementById('cuatro3');
+        duno = document.getElementById('cuatro4');
+        auno.style.left = "25%";
+        buno.style.left = "25%";
+        cuno.style.left = "25%";
+        duno.style.left = "25%";
+
     })
 
     // boton mas información personal
@@ -296,6 +306,15 @@ window.addEventListener('load', function() {
         var grupo;
         grupo = document.getElementById('dos6');
         grupo.style.top = "100%";
+        var auno, buno, cuno, duno;
+        auno = document.getElementById('cuatro1');
+        buno = document.getElementById('cuatro2');
+        cuno = document.getElementById('cuatro3');
+        duno = document.getElementById('cuatro4');
+        auno.style.left = "-100%";
+        buno.style.left = "100%";
+        cuno.style.left = "-100%";
+        duno.style.left = "100%";
     })
 
     // movimientos redes sociales

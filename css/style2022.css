@@ -472,6 +472,7 @@
 .cerrarboton {
     margin-top: 10px;
     width: 100%;
+    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -862,6 +863,57 @@ url(../images/blog-970722_1280.jpg) 0 0/cover;
     box-shadow: 10px 10px 10px yellow;
 }
 
+.centro {
+    
+    /* height: 100%; */
+    min-width: 600px;
+    /* padding: 20px; */
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .7s ease-in-out;
+    background-color: rgba(89, 179, 89, 0.548);
+}
+
+.centro a {
+    color: rgb(48, 48, 223);
+    font-weight: bold;
+    font-size: 2.2rem;
+    text-decoration: none;
+}
+
+#cuatro1 {
+    position: absolute;
+    top: 9vh;
+    left: -100%;
+    border: 1px 1px black;
+}
+
+
+#cuatro2 {
+    position: absolute;
+    top: 29vh;
+    left: 100%;
+    border: 1px 1px black;
+}
+
+
+#cuatro3 {
+    position: absolute;
+    top: 49vh;
+    left: -100%;
+    border: 1px 1px black;
+}
+
+
+#cuatro4 {
+    position: absolute;
+    top: 69vh;
+    left: 100%;
+    border: 1px 1px black;
+}
+
 /*PIE informativo creador web*/
 
 .pie {
@@ -881,6 +933,17 @@ url(../images/blog-970722_1280.jpg) 0 0/cover;
         background-color: rgba(255, 255, 0, 0.623);
         box-shadow: 10px 10px 10px yellow;
     }
+
+    .centro {
+        min-width: 300px;
+        height: 7vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: .7s ease-in-out;
+        background-color: rgba(89, 179, 89, 0.548);
+    }
+    
 }
 
 @media screen and (max-width: 574px) {
