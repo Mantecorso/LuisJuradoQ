@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./images/style.css">
+    <title>Document</title>
+    <style>
+
+        body {
+            background-color: black;
+        }
+
+        .botn99 {
+            width: 160px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            background-color: #1e1e1e7e;
+            position: relative;
+            overflow: hidden;
+            border-radius: 20px;
+            border: 1px solid white;
+            transition: .5s;
+        }
+
+        .botn99 h2 {
+            color: white;
+            font-size: 1.2rem;
+            font-weight: bold;
+            z-index: 10;
+        }
+
+        .botn99::before {
+            content: "";
+            position: absolute;
+            width: 20px;
+            height: 180px;
+            background: linear-gradient(#0bfd90, #ff71f8);
+            animation: muevete 2s linear infinite;
+        }
+
+        .botn99::after {
+            content: "";
+            position: absolute;
+            inset: 4px;
+            background: #0e1538;
+            border-radius: 16px;
+            
+        }
+
+        @keyframes muevete
+        {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        #cie {
+            color: white;
+            font-size: 2rem;
+            cursor: pointer;
+        }
+
+        .otro {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+
+        }
+
+        .contenedor {
+            width: 1100px;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 30px;
+        }
+
+        .contenedor .card {
+            max-width: 300px;
+            height: 215px;
+            position: relative;
+            margin: 30px 10px;
+            padding: 20px 15px;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+            transition: 0.3s ease-in-out;
+        }
+
+        .contenedor .card:hover {
+            height: 420px;
+        }
+
+        .contenedor .card .imgtodas {
+            position: relative;
+            width: 260px;
+            height: 260px;
+            top: -60px;
+            left: 20px;
+            box-shadow: 0 5px 20px rgba(0,0,0,2);
+            z-index: 1;
+        }
+
+        .contenedor .card .imgtodas img {
+            max-width: 100%;
+            border-radius: 4px;
+        }
+
+        .contenedor .card .contenido {
+            position: relative;
+            margin-top: -140px;
+            padding: 10px 15px;
+            text-align: center;
+            color: #111;
+            visibility: hidden;
+            opacity: 0;
+            transition: .3s ease-in-out;
+        }
+
+        .contenedor .card:hover .contenido {
+            visibility: visible;
+            opacity: 1;
+            margin-top: -40px;
+            transition-delay: .3s;
+
+        }
+
+        
+        .card {
+            max-width: 300px;
+            height: 215px;
+            position: relative;
+            margin: 30px 10px;
+            padding: 20px 15px;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+            transition: 0.3s ease-in-out;
+        }
+
+        .card:hover {
+            height: 420px;
+        }
+
+        .card .imgtodas {
+            position: relative;
+            width: 260px;
+            height: 260px;
+            top: -60px;
+            left: 20px;
+            box-shadow: 0 5px 20px rgba(0,0,0,2);
+            z-index: 1;
+        }
+
+        .card .imgtodas img {
+            max-width: 100%;
+            border-radius: 4px;
+        }
+
+        .card .contenido {
+            position: relative;
+            margin-top: -140px;
+            padding: 10px 15px;
+            text-align: center;
+            color: #111;
+            visibility: hidden;
+            opacity: 0;
+            transition: .3s ease-in-out;
+        }
+
+        .card:hover .contenido {
+            visibility: visible;
+            opacity: 1;
+            margin-top: -40px;
+            transition-delay: .3s;
+
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="botn99"><h2>SUSCRIBETÉ</h2></div>
+    <div class="otro">
+        <span class="icon-forward3" id="cie"></span>
+    </div>
+    <div class="contenedor">
+        <div class="card">
+            <div class="imgtodas">
+                <img src="./images/luis-1024x1024byw.jpg" alt="">
+            </div>
+            <div class="contenido">
+                <h2>Luis Jurado Quesada</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi explicabo temporibus tenetur possimus eum corporis, doloremque aliquid at neque impedit beatae et pariatur quaerat alias nostrum. Earum quas doloremque quaerat!</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="imgtodas">
+                <img src="./images/luis-1024x1024byw.jpg" alt="">
+            </div>
+            <div class="contenido">
+                <h2>Luis Jurado Quesada</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi explicabo temporibus tenetur possimus eum corporis, doloremque aliquid at neque impedit beatae et pariatur quaerat alias nostrum. Earum quas doloremque quaerat!</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="imgtodas">
+                <img src="./images/luis-1024x1024byw.jpg" alt="">
+            </div>
+            <div class="contenido">
+                <h2>Luis Jurado Quesada</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi explicabo temporibus tenetur possimus eum corporis, doloremque aliquid at neque impedit beatae et pariatur quaerat alias nostrum. Earum quas doloremque quaerat!</p>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="imgtodas">
+            <img src="./images/luis-1024x1024byw.jpg" alt="">
+        </div>
+        <div class="contenido">
+            <h2>Luis Jurado Quesada</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi explicabo temporibus tenetur possimus eum corporis, doloremque aliquid at neque impedit beatae et pariatur quaerat alias nostrum. Earum quas doloremque quaerat!</p>
+        </div>
+    </div>
+</body>
+</html>

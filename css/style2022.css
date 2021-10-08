@@ -14,6 +14,7 @@
     --color3: #757780; /*gris*/
     --color4: #6ccff6; /*azul*/
     --color5: #98ce00; /*verde*/
+    --color6: #fffffc85; /*blanco translúcido*/
 }
 
 
@@ -156,7 +157,7 @@
     top: 5%;
     left: 100%;
     padding: 20px;
-    background-color: var(--color1);
+    background-color: var(--color6);
     box-shadow: 10px 10px 10px var(--color2);
     transition: 1.1s ease-in-out;
 }
@@ -511,6 +512,65 @@ url(../images/book-bindings-3176776_1280.jpg) 0 0/cover;
 .datos figure img {
     width: 300px;
     box-shadow: 10px 10px 10px black;
+}
+
+.dentro {
+    width: 400px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.card {
+    width: 300px;
+    height: 215px;
+    position: relative;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+    transition: 0.3s ease-in-out;
+}
+
+.card:hover {
+    height: 420px;
+}
+
+.card .imgtodas {
+    position: relative;
+    width: 260px;
+    height: 260px;
+    top: -60px;
+    left: 20px;
+    box-shadow: 0 5px 20px rgba(0,0,0,2);
+    z-index: 1;
+}
+
+.card .imgtodas img {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.card .contenido {
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s ease-in-out;
+}
+
+.card:hover .contenido {
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: .3s;
 }
 
 .informa {
