@@ -12,6 +12,8 @@
             background-color: black;
         }
 
+        /*boton uno*/
+
         .botn99 {
             width: 160px;
             height: 50px;
@@ -62,6 +64,8 @@
             }
         }
 
+        /* boton 2*/
+
         #cie {
             color: white;
             font-size: 2rem;
@@ -72,8 +76,14 @@
             width: 50px;
             height: 50px;
             border-radius: 50%;
-
         }
+
+        
+
+
+
+
+        /*tarjetas/*/
 
         .contenedor {
             width: 1100px;
@@ -187,14 +197,105 @@
             transition-delay: .3s;
 
         }
+
+        /*boton rotativo infinito*/
+
+        .botrot {
+            width: 160px;
+            height: 50px;
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            background-color: #e996497e;
+            position: relative;
+            overflow: hidden;
+            border: 1px solid white;
+            transition: .5s;
+
+        }
+
+        .botrot h2 {
+            color: white;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+        .flip-2-ver-left-2 {
+	        -webkit-animation: flip-2-ver-left-2 0.5s infinite cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+	        animation: flip-2-ver-left-2 0.5s infinite cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+        }
+
+        @-webkit-keyframes flip-2-ver-left-2 {
+            0% {
+                -webkit-transform: translateX(0) rotateY(0);
+                        transform: translateX(0) rotateY(0);
+                -webkit-transform-origin: 0% 50%;
+                        transform-origin: 0% 50%;
+            }
+            100% {
+                -webkit-transform: translateX(-100%) rotateY(-180deg);
+                        transform: translateX(-100%) rotateY(-180deg);
+                -webkit-transform-origin: 100% 0%;
+                        transform-origin: 100% 0%;
+            }
+        }
+        @keyframes flip-2-ver-left-2 {
+            0% {
+                -webkit-transform: translateX(0) rotateY(0);
+                        transform: translateX(0) rotateY(0);
+                -webkit-transform-origin: 0% 50%;
+                        transform-origin: 0% 50%;
+            }
+            100% {
+                -webkit-transform: translateX(-100%) rotateY(-180deg);
+                        transform: translateX(-100%) rotateY(-180deg);
+                -webkit-transform-origin: 100% 0%;
+                        transform-origin: 100% 0%;
+            }
+        }
+
+        .rotate-in-ver {
+                -webkit-animation: rotate-in-ver 1.9s infinite cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+                        animation: rotate-in-ver 1.9s infinite cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            }
+
+
+        @-webkit-keyframes rotate-in-ver {
+            0% {
+                -webkit-transform: rotateY(-360deg);
+                        transform: rotateY(-360deg);
+                opacity: 0;
+            }
+            100% {
+                -webkit-transform: rotateY(0deg);
+                        transform: rotateY(0deg);
+                opacity: 1;
+            }
+        }
+        @keyframes rotate-in-ver {
+            0% {
+                -webkit-transform: rotateY(-360deg);
+                        transform: rotateY(-360deg);
+                opacity: 0;
+            }
+            100% {
+                -webkit-transform: rotateY(0deg);
+                        transform: rotateY(0deg);
+                opacity: 1;
+            }
+        }
+
         
     </style>
 </head>
 <body>
     <div class="botn99"><h2>SUSCRIBETÉ</h2></div>
-    <div class="otro">
+<!--     <div class="otro">
         <span class="icon-forward3" id="cie"></span>
-    </div>
+    </div> -->
+    <div class="botrot rotate-in-ver" id="vueltas"><h2>EMPEZAR</h2></div>
     <div class="contenedor">
         <div class="card">
             <div class="imgtodas">
