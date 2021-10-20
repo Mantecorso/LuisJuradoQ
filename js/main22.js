@@ -239,7 +239,7 @@ window.addEventListener('load', function() {
     sube1.addEventListener('click', function() {
         var grupo;
         grupo = document.getElementById('dos1');
-        grupo.style.top = "-100%";
+        grupo.style.top = "-130%";
         var masbot;
         masbot = document.getElementById('botmas');
         masbot.style.top = "-100%";
@@ -248,7 +248,7 @@ window.addEventListener('load', function() {
     sube2.addEventListener('click', function() {
         var grupo;
         grupo = document.getElementById('dos2');
-        grupo.style.top = "-100%";
+        grupo.style.top = "-130%";
         var uno, dos;
         uno = document.getElementById('movil1');
         dos = document.getElementById('movil2');
@@ -264,7 +264,7 @@ window.addEventListener('load', function() {
     sube3.addEventListener('click', function() {
         var grupo;
         grupo = document.getElementById('dos3');
-        grupo.style.top = "-100%";
+        grupo.style.top = "-130%";
         var mueve;
         mueve = document.getElementById('nofunc');
         mueve.style.left = "-100%";

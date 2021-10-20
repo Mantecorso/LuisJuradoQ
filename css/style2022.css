@@ -513,7 +513,7 @@
     width: 100%;
     height: 100vh;
     position: absolute;
-    top: -100%;
+    top: -130%;
     left: 0;
     transition: .7s ease-in-out;
     z-index: 3;
