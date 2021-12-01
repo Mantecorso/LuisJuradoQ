@@ -17,7 +17,9 @@
     --color6: #fffffc85; /*blanco translúcido*/
 }
 
-
+html {
+    scroll-behavior: smooth;
+}
 
 /*
 
