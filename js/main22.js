@@ -377,6 +377,10 @@ window.addEventListener('load', function() {
         grupo2.style.zIndex = "5";
         grupo3.style.zIndex = "3";
         grupo4.style.zIndex = "4";
+        grupo2.style.opacity = "1";
+        grupo3.style.opacity = "0.1";
+        grupo4.style.opacity = "0.1";
+        grupo2.style.backgroundImage = "url('./images/grel1.png')";
     })
 
     amigo2.addEventListener('click', function() {
@@ -395,6 +399,10 @@ window.addEventListener('load', function() {
         grupo2.style.zIndex = "2";
         grupo3.style.zIndex = "5";
         grupo4.style.zIndex = "4";
+        grupo2.style.opacity = "0.1";
+        grupo3.style.opacity = "1";
+        grupo4.style.opacity = "0.1";
+        grupo3.style.backgroundImage = "url('./images/horizontesinfinitos.png')";
     })
 
     amigo3.addEventListener('click', function() {
@@ -403,8 +411,8 @@ window.addEventListener('load', function() {
         var grupo2, grupo3, grupo4;
         
         grupo0 = document.getElementById('cort1');
-        grupo = document.getElementById('cort2');
-        grupo1 = document.getElementById('cort3');
+        grupo1 = document.getElementById('cort2');
+        grupo = document.getElementById('cort3');
         grupo2 = document.getElementById('ac1');
         grupo3 = document.getElementById('ac2');
         grupo4 = document.getElementById('ac3');
@@ -414,6 +422,10 @@ window.addEventListener('load', function() {
         grupo2.style.zIndex = "2";
         grupo3.style.zIndex = "3";
         grupo4.style.zIndex = "5";
+        grupo2.style.opacity = "0.1";
+        grupo3.style.opacity = "0.1";
+        grupo4.style.opacity = "1";
+        grupo4.style.backgroundImage = "url('./images/titiritubers1.png')";
     })
 
     

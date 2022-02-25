@@ -4,8 +4,11 @@
     padding: 0;
     box-sizing: border-box;
     outline: none;
+    font-family: 'Roboto Mono', monospace;
 }
 
+/* font-family: 'Permanent Marker', cursive;
+font-family: 'Roboto Mono', monospace; */
 
 
 :root {
@@ -979,6 +982,8 @@ url(../images/smartphone-2781459_1280.png) 0 0/cover;
     rgba(255, 255, 255, 0.6) 10px),
 url(../images/people-2569234_1280.jpg) 0 0/cover;
 }
+
+
 
 /* BLOG */
 
